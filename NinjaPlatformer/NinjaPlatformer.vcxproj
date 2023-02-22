@@ -151,6 +151,7 @@
     <ClCompile Include="Box.cpp" />
     <ClCompile Include="Capsule.cpp" />
     <ClCompile Include="EditorScreen.cpp" />
+    <ClCompile Include="FileReadWriter.cpp" />
     <ClCompile Include="GameplayScreen.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MainMenuScreeen.cpp" />
@@ -161,6 +162,7 @@
     <ClInclude Include="Box.h" />
     <ClInclude Include="Capsule.h" />
     <ClInclude Include="EditorScreen.h" />
+    <ClInclude Include="FileReadWriter.h" />
     <ClInclude Include="GameplayScreen.h" />
     <ClInclude Include="Lighting.h" />
     <ClInclude Include="MainMenuScreeen.h" />

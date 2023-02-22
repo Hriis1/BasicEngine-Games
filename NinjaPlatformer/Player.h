@@ -13,6 +13,8 @@ enum class PlayerMoveState
 
 class Player
 {
+	friend class FileReadWriter;
+
 public:
 	Player();
 	~Player();
@@ -37,6 +39,7 @@ public:
 
 private:
 	glm::vec2 _drawDims;
+	glm::vec2 _colisionDims;
 	BasicEngine::TileSheet _texture;
 	BasicEngine::Color _color;
 	Capsule _capsule;

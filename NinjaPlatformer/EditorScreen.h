@@ -149,6 +149,8 @@ private:
 
 	void createLableForUIElement(CEGUI::Window* element, const std::string& text, float _xOffset = 0.0f, float _yOffset = 0.0f);
 	//Event funcs
+	bool onSaveClicked(const CEGUI::EventArgs& e);
+	bool onLoadClicked(const CEGUI::EventArgs& e);
 	bool onBackClicked(const CEGUI::EventArgs& e);
 
 	bool onColorPickerRedChanged(const CEGUI::EventArgs& e);

@@ -7,6 +7,8 @@
 
 class Box
 {
+	friend class FileReadWriter;
+
 public:
 	Box();
 	~Box();
@@ -28,6 +30,7 @@ public:
 	const glm::vec2& getDimensions() const { return _dimensions; }
 	glm::vec2 getPosition() const { return glm::vec2(_body->GetPosition().x, _body->GetPosition().y); }
 	const BasicEngine::Color& getColor() const { return _color; }
+	const BasicEngine::GLTexture& getTexture() const { return _texture; }
 private:
 	b2Body* _body = nullptr;
 	b2Fixture* _fixture = nullptr;

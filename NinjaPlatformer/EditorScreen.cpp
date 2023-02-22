@@ -1,4 +1,5 @@
 #include "EditorScreen.h"
+#include "FileReadWriter.h"
 
 #include <ResourceManager.h>
 #include <iostream>
@@ -46,11 +47,20 @@ void EditorScreen::initUI()
 	_bSlider->setClickStep(1.0f);
 	_bSlider->subscribeEvent(CEGUI::Slider::EventValueChanged, CEGUI::Event::Subscriber(&EditorScreen::onColorPickerBlueChanged, this));
 
+	//Save button
+	CEGUI::PushButton* saveButton = static_cast<CEGUI::PushButton*>(_gui.createWidget(_groupBox, "TaharezLook/Button", glm::vec4(0.05f, 0.9f, 0.25f, 0.075f), glm::vec4(0), "saveButton"));
+	saveButton->setText("Save");
+	saveButton->subscribeEvent(CEGUI::PushButton::EventClicked, CEGUI::Event::Subscriber(&EditorScreen::onSaveClicked, this));
+
+	//Load button
+	CEGUI::PushButton* loadButton = static_cast<CEGUI::PushButton*>(_gui.createWidget(_groupBox, "TaharezLook/Button", glm::vec4(0.375f, 0.9f, 0.25f, 0.075f), glm::vec4(0), "loadButton"));
+	loadButton->setText("Load");
+	loadButton->subscribeEvent(CEGUI::PushButton::EventClicked, CEGUI::Event::Subscriber(&EditorScreen::onLoadClicked, this));
+
 	//Exit button
-	CEGUI::PushButton* exitButton = static_cast<CEGUI::PushButton*>(_gui.createWidget(_groupBox, "TaharezLook/Button", glm::vec4(0.25f, 0.9f, 0.5f, 0.075f), glm::vec4(0), "exitButton"));
-	exitButton->setText("Back");
-	//Set the onExitClicked event to be called when we click the exitButton
-	exitButton->subscribeEvent(CEGUI::PushButton::EventClicked, CEGUI::Event::Subscriber(&EditorScreen::onBackClicked, this));
+	CEGUI::PushButton* backButton = static_cast<CEGUI::PushButton*>(_gui.createWidget(_groupBox, "TaharezLook/Button", glm::vec4(0.7f, 0.9f, 0.25f, 0.075f), glm::vec4(0), "backButton"));
+	backButton->setText("Back");
+	backButton->subscribeEvent(CEGUI::PushButton::EventClicked, CEGUI::Event::Subscriber(&EditorScreen::onBackClicked, this));
 
 	{//Add objectmode radio buttons
 		const int GROUP_ID = 1;
@@ -832,6 +842,21 @@ void EditorScreen::updateMouseMotion(SDL_Event evnt)
 			break;
 		}
 	}
+}
+
+bool EditorScreen::onSaveClicked(const CEGUI::EventArgs& e)
+{
+	//If there is no player we cannot save the level
+	if (_player == nullptr)
+		return true;
+
+	FileReadWriter::writeLevelData("Levels/level1.txt",_player,_boxes,_lights);
+	return true;
+}
+
+bool EditorScreen::onLoadClicked(const CEGUI::EventArgs& e)
+{
+	return true;
 }
 
 bool EditorScreen::onBackClicked(const CEGUI::EventArgs& e)

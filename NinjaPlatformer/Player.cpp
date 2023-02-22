@@ -17,6 +17,7 @@ void Player::init(b2World* world, const glm::vec2& pos, const glm::vec2& drawDim
 	BasicEngine::GLTexture texture = BasicEngine::ResourceManager::getTexture("Assets/blue_ninja.png");
 	_color = color;
 	_drawDims = drawDims;
+	_colisionDims = collisionDims;
 
 	_capsule.init(world, pos, collisionDims,1.0f, 0.1f ,true);
 
