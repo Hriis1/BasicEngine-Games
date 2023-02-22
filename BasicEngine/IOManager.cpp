@@ -1,6 +1,7 @@
 #include "IOManager.h"
 
 #include <fstream>
+
 namespace BasicEngine {
 	bool IOManager::readFileToBuffer(const std::string& filePath, std::vector<unsigned char>& buffer)
 	{
