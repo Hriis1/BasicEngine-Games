@@ -7,7 +7,7 @@
 namespace BasicEngine {
 	GLTexture ImageLoader::loadPNG(const std::string& filePath)
 	{
-		GLTexture texture = { 0,0,0 };
+		GLTexture texture = {};
 
 		std::vector<unsigned char> in;
 		std::vector<unsigned char> out;
@@ -46,6 +46,7 @@ namespace BasicEngine {
 		glBindTexture(GL_TEXTURE_2D, 0);
 
 		//Set the textures width and height to the ones we generated
+		texture.filePath = filePath;
 		texture.width = width;
 		texture.height = height;
 
