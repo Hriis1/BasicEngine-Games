@@ -17,7 +17,6 @@
 #include"Lighting.h"
 #include "Player.h"
 
-//SADASDASDASDASDASDASDASDASD
 enum class PhysicsMode
 {
 	RIGID, DYNAMIC
