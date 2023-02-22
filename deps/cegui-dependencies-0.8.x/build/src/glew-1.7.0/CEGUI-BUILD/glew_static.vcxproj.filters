@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\src\glew-1.7.0\src\glew.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\src\glew-1.7.0\CEGUI-BUILD\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A3D67A60-1FCC-3154-BE7D-FB7E107CA765}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

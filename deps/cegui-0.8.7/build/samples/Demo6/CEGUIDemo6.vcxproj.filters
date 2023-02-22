@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples\Demo6\Sample_Demo6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples\Demo6\Sample_Demo6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples\common\include\Sample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples\common\include\SampleBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples\Demo6\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{357A5C3B-9CA2-39CA-83D5-DB7AB5C4EB62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A82F74E2-222D-3BED-AE52-3A51DF68C72D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

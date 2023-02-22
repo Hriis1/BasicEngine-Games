@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{375D0CF4-CB86-3AA4-A216-D248BEB453DB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>CEGUISampleFramework-0.8</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CEGUISampleFramework-0.8.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CEGUISampleFramework-0.8_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CEGUISampleFramework-0.8.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CEGUISampleFramework-0.8</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CEGUISampleFramework-0.8.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CEGUISampleFramework-0.8</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CEGUISampleFramework-0.8.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CEGUISampleFramework-0.8</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\cegui\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\cegui\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples\common\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples\common\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;GLFW_DLL;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GLFW_DLL;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\cegui\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\cegui\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples\common\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples\common\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\cegui\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\cegui\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples\common\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples\common\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\dependencies\lib\dynamic\glfw_d.lib;..\lib\CEGUIOpenGLRenderer-0_d.lib;..\lib\CEGUIBase-0_d.lib;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\dependencies\lib\dynamic\freetype_d.lib;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\dependencies\lib\dynamic\pcre_d.lib;winmm.lib;DbgHelp.lib;opengl32.lib;glu32.lib;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\dependencies\lib\dynamic\glew_d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/programing/C++ SDL OpenGL - MakingGamesWithBen/1.SDL_OpenGL/deps/cegui-0.8.7/build/lib/CEGUISampleFramework-0.8_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/programing/C++ SDL OpenGL - MakingGamesWithBen/1.SDL_OpenGL/deps/cegui-0.8.7/build/bin/CEGUISampleFramework-0.8_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\cegui\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\cegui\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples\common\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples\common\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\cegui\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\cegui\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples\common\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples\common\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\cegui\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\cegui\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples\common\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples\common\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\dependencies\lib\dynamic\glfw.lib;..\lib\CEGUIOpenGLRenderer-0.lib;..\lib\CEGUIBase-0.lib;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\dependencies\lib\dynamic\freetype.lib;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\dependencies\lib\dynamic\pcre.lib;winmm.lib;opengl32.lib;glu32.lib;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\dependencies\lib\dynamic\glew.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/programing/C++ SDL OpenGL - MakingGamesWithBen/1.SDL_OpenGL/deps/cegui-0.8.7/build/lib/CEGUISampleFramework-0.8.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/programing/C++ SDL OpenGL - MakingGamesWithBen/1.SDL_OpenGL/deps/cegui-0.8.7/build/bin/CEGUISampleFramework-0.8.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\cegui\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\cegui\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples\common\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples\common\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\cegui\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\cegui\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples\common\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples\common\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\cegui\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\cegui\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples\common\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples\common\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\dependencies\lib\dynamic\glfw.lib;..\lib\CEGUIOpenGLRenderer-0.lib;..\lib\CEGUIBase-0.lib;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\dependencies\lib\dynamic\freetype.lib;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\dependencies\lib\dynamic\pcre.lib;winmm.lib;opengl32.lib;glu32.lib;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\dependencies\lib\dynamic\glew.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/programing/C++ SDL OpenGL - MakingGamesWithBen/1.SDL_OpenGL/deps/cegui-0.8.7/build/lib/CEGUISampleFramework-0.8.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/programing/C++ SDL OpenGL - MakingGamesWithBen/1.SDL_OpenGL/deps/cegui-0.8.7/build/bin/CEGUISampleFramework-0.8.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\cegui\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\cegui\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples\common\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples\common\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\cegui\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\cegui\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples\common\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples\common\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\cegui\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\cegui\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples\common\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples\common\include;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\dependencies\lib\dynamic\glfw.lib;..\lib\CEGUIOpenGLRenderer-0.lib;..\lib\CEGUIBase-0.lib;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\dependencies\lib\dynamic\freetype.lib;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\dependencies\lib\dynamic\pcre.lib;winmm.lib;opengl32.lib;glu32.lib;D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\dependencies\lib\dynamic\glew.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/programing/C++ SDL OpenGL - MakingGamesWithBen/1.SDL_OpenGL/deps/cegui-0.8.7/build/lib/CEGUISampleFramework-0.8.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/programing/C++ SDL OpenGL - MakingGamesWithBen/1.SDL_OpenGL/deps/cegui-0.8.7/build/bin/CEGUISampleFramework-0.8.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/programing/C++ SDL OpenGL - MakingGamesWithBen/1.SDL_OpenGL/deps/cegui-0.8.7/samples_framework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/programing/C++ SDL OpenGL - MakingGamesWithBen/1.SDL_OpenGL/deps/cegui-0.8.7" "-BD:/programing/C++ SDL OpenGL - MakingGamesWithBen/1.SDL_OpenGL/deps/cegui-0.8.7/build" --check-stamp-file "D:/programing/C++ SDL OpenGL - MakingGamesWithBen/1.SDL_OpenGL/deps/cegui-0.8.7/build/samples_framework/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\cmake\templates\VisualStudioUserFile.vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples_framework\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/programing/C++ SDL OpenGL - MakingGamesWithBen/1.SDL_OpenGL/deps/cegui-0.8.7/samples_framework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/programing/C++ SDL OpenGL - MakingGamesWithBen/1.SDL_OpenGL/deps/cegui-0.8.7" "-BD:/programing/C++ SDL OpenGL - MakingGamesWithBen/1.SDL_OpenGL/deps/cegui-0.8.7/build" --check-stamp-file "D:/programing/C++ SDL OpenGL - MakingGamesWithBen/1.SDL_OpenGL/deps/cegui-0.8.7/build/samples_framework/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\cmake\templates\VisualStudioUserFile.vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples_framework\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/programing/C++ SDL OpenGL - MakingGamesWithBen/1.SDL_OpenGL/deps/cegui-0.8.7/samples_framework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/programing/C++ SDL OpenGL - MakingGamesWithBen/1.SDL_OpenGL/deps/cegui-0.8.7" "-BD:/programing/C++ SDL OpenGL - MakingGamesWithBen/1.SDL_OpenGL/deps/cegui-0.8.7/build" --check-stamp-file "D:/programing/C++ SDL OpenGL - MakingGamesWithBen/1.SDL_OpenGL/deps/cegui-0.8.7/build/samples_framework/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\cmake\templates\VisualStudioUserFile.vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples_framework\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/programing/C++ SDL OpenGL - MakingGamesWithBen/1.SDL_OpenGL/deps/cegui-0.8.7/samples_framework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/programing/C++ SDL OpenGL - MakingGamesWithBen/1.SDL_OpenGL/deps/cegui-0.8.7" "-BD:/programing/C++ SDL OpenGL - MakingGamesWithBen/1.SDL_OpenGL/deps/cegui-0.8.7/build" --check-stamp-file "D:/programing/C++ SDL OpenGL - MakingGamesWithBen/1.SDL_OpenGL/deps/cegui-0.8.7/build/samples_framework/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\cmake\templates\VisualStudioUserFile.vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples_framework\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\src\SamplesFrameworkBase.cpp" />
+    <ClCompile Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\src\SamplesFramework.cpp" />
+    <ClCompile Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\src\CEGuiBaseApplication.cpp" />
+    <ClCompile Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\src\CEGuiRendererSelector.cpp" />
+    <ClCompile Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\src\Samples_xmlHandler.cpp" />
+    <ClCompile Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\src\SampleData.cpp" />
+    <ClCompile Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\src\MetaDataWindowManager.cpp" />
+    <ClCompile Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\src\SamplesBrowserManager.cpp" />
+    <ClCompile Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\src\Win32AppHelper.cpp" />
+    <ClCompile Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\src\Win32CEGuiRendererSelector.cpp" />
+    <ClCompile Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\src\CEGuiGLFWSharedBase.cpp" />
+    <ClCompile Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\src\CEGuiGLFW2SharedBase.cpp" />
+    <ClCompile Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\src\CEGuiOpenGLBaseApplication.cpp" />
+    <ClCompile Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\src\CEGuiOpenGL3BaseApplication.cpp" />
+    <ClInclude Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples\common\include\Sample.h" />
+    <ClInclude Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\include\SamplesFrameworkBase.h" />
+    <ClInclude Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\include\SamplesFramework.h" />
+    <ClInclude Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\include\CEGuiBaseApplication.h" />
+    <ClInclude Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\include\CEGuiRendererSelector.h" />
+    <ClInclude Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\include\Samples_xmlHandler.h" />
+    <ClInclude Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\include\SampleData.h" />
+    <ClInclude Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\include\MetaDataWindowManager.h" />
+    <ClInclude Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\samples_framework\include\SamplesBrowserManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\ZERO_CHECK.vcxproj">
+      <Project>{F7044B75-8DC3-355B-9687-8F7D809E3BA7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\cegui\src\CEGUIBase-0.vcxproj">
+      <Project>{EFC1827E-DD41-36EF-975A-885E7982780F}</Project>
+      <Name>CEGUIBase-0</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples\CommonDialogsDemo\CEGUICommonDialogsDemo.vcxproj">
+      <Project>{001A3DEE-A794-3CE9-B878-646C48F9AD21}</Project>
+      <Name>CEGUICommonDialogsDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\cegui\src\WindowRendererSets\Core\CEGUICoreWindowRendererSet.vcxproj">
+      <Project>{37C1625C-0939-3DAF-A946-2D66715A85D9}</Project>
+      <Name>CEGUICoreWindowRendererSet</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples\Demo6\CEGUIDemo6.vcxproj">
+      <Project>{6230ED8E-529B-3271-A328-4AB915DDFB7C}</Project>
+      <Name>CEGUIDemo6</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples\DragDropDemo\CEGUIDragDropDemo.vcxproj">
+      <Project>{0AD2777B-A2A5-3396-9363-FCCE11775775}</Project>
+      <Name>CEGUIDragDropDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples\EditboxValidationDemo\CEGUIEditboxValidationDemo.vcxproj">
+      <Project>{306FD045-1EE9-346E-8D28-120DD4254AB0}</Project>
+      <Name>CEGUIEditboxValidationDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples\EffectsDemo\CEGUIEffectsDemo.vcxproj">
+      <Project>{EF76CCC2-3CB8-3EB7-8472-7CE6701E1754}</Project>
+      <Name>CEGUIEffectsDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\cegui\src\XMLParserModules\Expat\CEGUIExpatParser.vcxproj">
+      <Project>{3202D28A-D5A8-33EF-8ACF-FB347DCCC463}</Project>
+      <Name>CEGUIExpatParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples\FontDemo\CEGUIFontDemo.vcxproj">
+      <Project>{D47E9C72-A1FA-354C-B429-49106B59DB51}</Project>
+      <Name>CEGUIFontDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples\GameMenu\CEGUIGameMenuDemo.vcxproj">
+      <Project>{FAB2134B-0497-34D1-AEB5-A3396A9325EC}</Project>
+      <Name>CEGUIGameMenuDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples\HUDDemo\CEGUIHUDDemo.vcxproj">
+      <Project>{68E21277-2818-376E-96D7-73A802C6188D}</Project>
+      <Name>CEGUIHUDDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples\HelloWorld\CEGUIHelloWorldDemo.vcxproj">
+      <Project>{4D01C55F-316F-3CFE-A6C7-51D53A919AD1}</Project>
+      <Name>CEGUIHelloWorldDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples\InventoryDemo\CEGUIInventoryDemo.vcxproj">
+      <Project>{F7678159-E799-32DB-8127-107C2772E469}</Project>
+      <Name>CEGUIInventoryDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples\LookNFeelOverview\CEGUILookNFeelOverviewDemo.vcxproj">
+      <Project>{B767D8BC-A071-30B9-B7B9-D633AE5BF0C9}</Project>
+      <Name>CEGUILookNFeelOverviewDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples\Minesweeper\CEGUIMinesweeper.vcxproj">
+      <Project>{B32BD4A5-A284-3B28-95FB-9DD55F8B774D}</Project>
+      <Name>CEGUIMinesweeper</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\cegui\src\RendererModules\OpenGL\CEGUIOpenGLRenderer-0.vcxproj">
+      <Project>{099FB1F1-3622-3628-9D74-1C644EC1631E}</Project>
+      <Name>CEGUIOpenGLRenderer-0</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\cegui\src\ImageCodecModules\SILLY\CEGUISILLYImageCodec.vcxproj">
+      <Project>{486FE195-8F00-3455-80A6-290F741059AE}</Project>
+      <Name>CEGUISILLYImageCodec</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples\ScrollablePaneDemo\CEGUIScrollablePaneDemo.vcxproj">
+      <Project>{782C381F-2703-3522-BAA7-8D10533BCD48}</Project>
+      <Name>CEGUIScrollablePaneDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples\TabControlDemo\CEGUITabControlDemo.vcxproj">
+      <Project>{D2DD9D4F-F411-3D9F-95DE-D726CB93973D}</Project>
+      <Name>CEGUITabControlDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples\TextDemo\CEGUITextDemo.vcxproj">
+      <Project>{192413DA-B5C0-3D6A-B670-018BF3370921}</Project>
+      <Name>CEGUITextDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples\TreeDemo\CEGUITreeDemo.vcxproj">
+      <Project>{01148F92-9CAB-3187-B211-C628DC478194}</Project>
+      <Name>CEGUITreeDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-0.8.7\build\samples\WidgetDemo\CEGUIWidgetDemo.vcxproj">
+      <Project>{25D6D539-2447-3BA2-8228-F3DB5C3FB655}</Project>
+      <Name>CEGUIWidgetDemo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

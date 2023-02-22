@@ -1,0 +1,686 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1b44b749e939e22f6a944f2fae4ce70d\glm-copying.txt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\_detail.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\_fixes.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\_swizzle.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\_swizzle_func.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\_vectorize.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\dummy.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\func_common.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\func_common.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\func_exponential.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\func_exponential.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\func_geometric.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\func_geometric.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\func_integer.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\func_integer.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\func_matrix.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\func_matrix.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\func_noise.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\func_noise.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\func_packing.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\func_packing.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\func_trigonometric.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\func_trigonometric.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\func_vector_relational.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\func_vector_relational.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\hint.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\intrinsic_common.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\intrinsic_common.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\intrinsic_exponential.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\intrinsic_exponential.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\intrinsic_geometric.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\intrinsic_geometric.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\intrinsic_matrix.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\intrinsic_matrix.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\intrinsic_trigonometric.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\intrinsic_trigonometric.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\intrinsic_vector_relational.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\intrinsic_vector_relational.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\setup.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_float.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_gentype.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_gentype.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_half.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_half.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_int.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_mat.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_mat.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_mat2x2.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_mat2x2.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_mat2x3.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_mat2x3.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_mat2x4.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_mat2x4.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_mat3x2.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_mat3x2.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_mat3x3.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_mat3x3.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_mat3x4.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_mat3x4.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_mat4x2.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_mat4x2.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_mat4x3.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_mat4x3.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_mat4x4.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_mat4x4.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_size.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_vec.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_vec.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_vec1.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_vec1.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_vec2.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_vec2.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_vec3.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_vec3.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_vec4.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\1be1ac9862bc929e83769dca8945ec70\type_vec4.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\002a741ae8d3fcd977117a8095a1f859\ext.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\002a741ae8d3fcd977117a8095a1f859\glm.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\d22a06d3ea9db07c5161bc94825a4d24\half_float.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\d22a06d3ea9db07c5161bc94825a4d24\half_float.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\d22a06d3ea9db07c5161bc94825a4d24\matrix_access.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\d22a06d3ea9db07c5161bc94825a4d24\matrix_access.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\d22a06d3ea9db07c5161bc94825a4d24\matrix_integer.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\d22a06d3ea9db07c5161bc94825a4d24\matrix_inverse.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\d22a06d3ea9db07c5161bc94825a4d24\matrix_inverse.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\d22a06d3ea9db07c5161bc94825a4d24\matrix_transform.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\d22a06d3ea9db07c5161bc94825a4d24\matrix_transform.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\d22a06d3ea9db07c5161bc94825a4d24\noise.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\d22a06d3ea9db07c5161bc94825a4d24\noise.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\d22a06d3ea9db07c5161bc94825a4d24\quaternion.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\d22a06d3ea9db07c5161bc94825a4d24\quaternion.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\d22a06d3ea9db07c5161bc94825a4d24\random.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\d22a06d3ea9db07c5161bc94825a4d24\random.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\d22a06d3ea9db07c5161bc94825a4d24\swizzle.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\d22a06d3ea9db07c5161bc94825a4d24\swizzle.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\d22a06d3ea9db07c5161bc94825a4d24\type_precision.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\d22a06d3ea9db07c5161bc94825a4d24\type_precision.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\d22a06d3ea9db07c5161bc94825a4d24\type_ptr.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\d22a06d3ea9db07c5161bc94825a4d24\type_ptr.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\associated_min_max.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\associated_min_max.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\bit.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\bit.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\closest_point.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\closest_point.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\color_cast.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\color_cast.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\color_space.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\color_space.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\color_space_YCoCg.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\color_space_YCoCg.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\compatibility.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\compatibility.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\component_wise.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\component_wise.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\constants.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\constants.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\epsilon.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\epsilon.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\euler_angles.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\euler_angles.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\extend.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\extend.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\extented_min_max.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\extented_min_max.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\fast_exponential.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\fast_exponential.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\fast_square_root.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\fast_square_root.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\fast_trigonometry.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\fast_trigonometry.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\gradient_paint.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\gradient_paint.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\handed_coordinate_space.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\handed_coordinate_space.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\inertia.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\inertia.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\int_10_10_10_2.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\int_10_10_10_2.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\integer.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\integer.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\intersect.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\intersect.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\log_base.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\log_base.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\matrix_cross_product.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\matrix_cross_product.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\matrix_interpolation.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\matrix_interpolation.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\matrix_major_storage.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\matrix_major_storage.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\matrix_operation.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\matrix_operation.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\matrix_query.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\matrix_query.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\mixed_product.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\mixed_product.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\multiple.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\multiple.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\noise.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\noise.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\norm.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\norm.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\normal.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\normal.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\normalize_dot.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\normalize_dot.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\number_precision.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\number_precision.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\ocl_type.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\ocl_type.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\optimum_pow.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\optimum_pow.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\orthonormalize.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\orthonormalize.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\perpendicular.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\perpendicular.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\polar_coordinates.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\polar_coordinates.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\projection.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\projection.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\quaternion.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\quaternion.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\random.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\random.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\raw_data.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\raw_data.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\reciprocal.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\reciprocal.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\rotate_vector.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\rotate_vector.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\simd_mat4.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\simd_mat4.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\simd_vec4.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\simd_vec4.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\spline.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\spline.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\std_based_type.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\std_based_type.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\string_cast.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\string_cast.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\transform.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\transform.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\transform2.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\transform2.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\ulp.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\ulp.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\unsigned_int.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\unsigned_int.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\vec1.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\vec1.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\vector_access.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\vector_access.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\vector_angle.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\vector_angle.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\vector_query.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\vector_query.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\verbose_operator.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\verbose_operator.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\wrap.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\2dc469f5f1246ea634d99880e8af980b\wrap.inl.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\f6a22c4125cf98dbd8ed91a5c148791f\xstream.hpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\CMakeFiles\07ccbc4dfc094313b16ce83fcf172376\glm.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\src\glm-0.9.3.1\CEGUI-BUILD\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\programing\C++ SDL OpenGL - MakingGamesWithBen\1.SDL_OpenGL\deps\cegui-dependencies-0.8.x\build\src\glm-0.9.3.1\CEGUI-BUILD\CMakeFiles\glm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1DC2F374-7B58-3C80-9D16-6946D41E6AF1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
