@@ -856,6 +856,9 @@ bool EditorScreen::onSaveClicked(const CEGUI::EventArgs& e)
 
 bool EditorScreen::onLoadClicked(const CEGUI::EventArgs& e)
 {
+	resetWorld();
+
+	FileReadWriter::loadLevelData("Levels/level1.txt", _world.get(), _player, _boxes, _lights);
 	return true;
 }
 
