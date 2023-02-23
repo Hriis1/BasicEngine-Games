@@ -747,6 +747,23 @@ void EditorScreen::updateMouseDown(SDL_Event evnt)
 						{
 							std::cout << "Light selected!   ";
 							_selectedLightIdx = i;
+
+							_lightSizeChangedOnSelection = true;
+							_lightSizeSpinner->setCurrentValue(_lights[_selectedLightIdx].size);
+							
+							_lightIntensityChangedOnSelection = true;
+							_lightIntensitySpinner->setCurrentValue(_lights[_selectedLightIdx].color.a);
+							
+
+							
+							_rValueChangedOnSelecion = true;
+							_rSlider->setCurrentValue(_lights[_selectedLightIdx].color.r);
+							
+							_gValueChangedOnSelecion = true;
+							_gSlider->setCurrentValue(_lights[_selectedLightIdx].color.g);
+							
+							_bValueChangedOnSelecion = true;
+							_bSlider->setCurrentValue(_lights[_selectedLightIdx].color.b);
 						}
 					}
 				}
@@ -876,9 +893,12 @@ bool EditorScreen::onColorPickerRedChanged(const CEGUI::EventArgs& e)
 	if (_rValueChangedOnSelecion)
 		_rValueChangedOnSelecion = false;
 	else
-		updateSelectedBox();
-
-	updateSelectedLight();
+	{
+		if (_objectMode == ObjectMode::PLATFORM)
+			updateSelectedBox();
+		else if (_objectMode == ObjectMode::LIGHT)
+			updateSelectedLight();
+	}
 	return true;
 }
 
@@ -888,10 +908,14 @@ bool EditorScreen::onColorPickerGreenChanged(const CEGUI::EventArgs& e)
 
 	if (_gValueChangedOnSelecion)
 		_gValueChangedOnSelecion = false;
-	else
-		updateSelectedBox();
+	else 
+	{
+		if (_objectMode == ObjectMode::PLATFORM)
+			updateSelectedBox();
+		else if (_objectMode == ObjectMode::LIGHT)
+			updateSelectedLight();
+	}
 
-	updateSelectedLight();
 	return true;
 }
 
@@ -902,9 +926,13 @@ bool EditorScreen::onColorPickerBlueChanged(const CEGUI::EventArgs& e)
 	if (_bValueChangedOnSelecion)
 		_bValueChangedOnSelecion = false;
 	else
-		updateSelectedBox();
+	{
+		if (_objectMode == ObjectMode::PLATFORM)
+			updateSelectedBox();
+		else if (_objectMode == ObjectMode::LIGHT)
+			updateSelectedLight();
+	}
 
-	updateSelectedLight();
 	return true;
 }
 
@@ -1002,13 +1030,23 @@ bool EditorScreen::onRotationValueChange(const CEGUI::EventArgs& e)
 bool EditorScreen::onLightIntensityValueChange(const CEGUI::EventArgs& e)
 {
 	_lightIntensity = _lightIntensitySpinner->getCurrentValue();
-	updateSelectedLight();
+
+	if (_lightIntensityChangedOnSelection)
+		_lightIntensityChangedOnSelection = false;
+	else
+		updateSelectedLight();
+
 	return true;
 }
 bool EditorScreen::onLightSizeValueChange(const CEGUI::EventArgs& e)
 {
 	_lightSize = _lightSizeSpinner->getCurrentValue();
-	updateSelectedLight();
+
+	if (_lightSizeChangedOnSelection)
+		_lightSizeChangedOnSelection = false;
+	else
+		updateSelectedLight();
+
 	return true;
 }
 

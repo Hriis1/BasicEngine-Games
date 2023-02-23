@@ -89,6 +89,8 @@ private:
 	bool _rValueChangedOnSelecion = false;
 	bool _gValueChangedOnSelecion = false;
 	bool _bValueChangedOnSelecion = false;
+	bool _lightSizeChangedOnSelection = false;
+	bool _lightIntensityChangedOnSelection = false;
 
 	Player* _player = nullptr;
 
