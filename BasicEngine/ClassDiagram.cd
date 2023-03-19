@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BasicEngine::SoundEffect" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>AudioEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicEngine::AudioEngine">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAQEEAQAAAAAAAAAEAAAAAAAAYAAAAAEAAAAAA=</HashCode>
+      <FileName>AudioEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicEngine::Music" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAAEAAAAAAIAA=</HashCode>
+      <FileName>AudioEngine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicEngine::Camera2D">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RgAAIAAQBAAAAAgAAAAAAAACACAgICIGAAAAggAEACA=</HashCode>
+      <FileName>Camera2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicEngine::DebugRenderer">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="BasicEngine::DebugRenderer::DebugVertex" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DebugRenderer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAACAAhAJAAAAAAAAAAYIIAAIASAAAQAAA=</HashCode>
+      <FileName>DebugRenderer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicEngine::GLSLProgram">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAgIAAIAAAAgJAAIABAAgEYAAQAQ=</HashCode>
+      <FileName>GLSLProgram.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicEngine::GUI">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAGAAAAUDAAAAAIRAEAEEAAAgAIQAAAgAAAkAAA=</HashCode>
+      <FileName>GUI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicEngine::IGameScreen">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACCAAAAACAAAIAAAIAAFAAAAAIAAAAgIAAAAAFBBU=</HashCode>
+      <FileName>IGameScreen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicEngine::ScreenList">
+    <Position X="12.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAIAAQAAAAgAEAIAAAgAAAARAAAAAAAgAQ=</HashCode>
+      <FileName>ScreenList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicEngine::ImageLoader" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ImageLoader.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicEngine::IMainGame">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAgAAAgAAAAAAAJIAABAEFIAAABIoAAEAAAAEAAA=</HashCode>
+      <FileName>IMainGame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicEngine::InputManager">
+    <Position X="19.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAABgIhIAFABAAAIgAEAAA=</HashCode>
+      <FileName>InputManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicEngine::IOManager">
+    <Position X="21.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IOManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicEngine::ParticleBatch2D" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAQAAAAACAAIAAAEAAAAIAAoAMAAAAAAEAAI=</HashCode>
+      <FileName>ParticleBatch2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicEngine::SpriteBatch">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACgIAAACAAAAAAAgAFIgQAAQAAACAAICQIQEAAAAAAA=</HashCode>
+      <FileName>SpriteBatch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicEngine::ParticleEngine2D">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAIAAAAAAAAIAAAAAAAAAAQEAIA=</HashCode>
+      <FileName>ParticleEngine2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicEngine::ResourceManager">
+    <Position X="21.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ResourceManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicEngine::Sprite">
+    <Position X="11" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAQSAAAAAAAIAAAACABAAAAIQAAAAAAAAAAI=</HashCode>
+      <FileName>Sprite.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicEngine::Glyph">
+    <Position X="18" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAQAAAAAAAAAAAAAAAEAAAgAAAAIAIAIAEAA=</HashCode>
+      <FileName>SpriteBatch.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicEngine::SpriteFont">
+    <Position X="9.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAACEIAAgAAIgAAAAAAAAAEIAACQAAIAAAAA=</HashCode>
+      <FileName>SpriteFont.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicEngine::TextureCache">
+    <Position X="14.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAgAAAAAAAAAAAAAAAEAAAAAI=</HashCode>
+      <FileName>TextureCache.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicEngine::TileSheet">
+    <Position X="16.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAACAAAAAAAAgIAAAAAAAAAAAA=</HashCode>
+      <FileName>TileSheet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicEngine::FpsLimiter">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAACAAQQIAAAAAAAAAAQAAAAAAYEAAEAAAAAAAA=</HashCode>
+      <FileName>Timing.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BasicEngine::Window">
+    <Position X="18" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAABAAAAAAEAAAAAQAAAQAAQAgAAAAACgAAAAA=</HashCode>
+      <FileName>Window.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="BasicEngine::GLTexture">
+    <Position X="4" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAQAAAAAAAAAAAAEAAAAAAAAAAAgA=</HashCode>
+      <FileName>GLTexture.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BasicEngine::RenderBatch">
+    <Position X="7.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAABAgAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>SpriteBatch.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BasicEngine::CharGlyph">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAgAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SpriteFont.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BasicEngine::Position">
+    <Position X="5.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAAAA=</HashCode>
+      <FileName>Vertex.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BasicEngine::Color">
+    <Position X="2.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAQABgAAAAAA=</HashCode>
+      <FileName>Vertex.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BasicEngine::UV">
+    <Position X="19.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIAAAAAAAA=</HashCode>
+      <FileName>Vertex.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BasicEngine::Vertex">
+    <Position X="21.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAIAACAAAAAACAAAAAAAAIAgA=</HashCode>
+      <FileName>Vertex.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="BasicEngine::ScreenState">
+    <Position X="5.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IIAAAAAAAAAAAAAIAwAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IGameScreen.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BasicEngine::GlyphSortType">
+    <Position X="23.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAABAAAAAAAAAAAAAAggA=</HashCode>
+      <FileName>SpriteBatch.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BasicEngine::Justification">
+    <Position X="19.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAABAgAAAAAAAAAAA=</HashCode>
+      <FileName>SpriteFont.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BasicEngine::WindowFlags">
+    <Position X="21.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAACAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Window.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
